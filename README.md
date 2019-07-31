@@ -1,3 +1,11 @@
-## Mingle with React
+# Mingle with React
 
-Sample using Mingle in React project.
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run start
+```
