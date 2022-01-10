@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@totvs/mingle": "0.0.1-20190729.1",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "@totvs/mingle": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-scripts": "latest"
   },
   "scripts": {
     "start": "react-scripts start",
