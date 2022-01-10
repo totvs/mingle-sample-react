@@ -10,7 +10,7 @@ const mingleService = new MingleService();
 function mingleInit() {
   config.app_identifier = 'your_app_id';
   config.environment = 'DEV';
-  config.server = 'https://mingle_server/api';
+  config.server = 'https://hom-mingle.totvs.com.br/api';
   config.modules.crashr = true;
   config.modules.usage_metrics = true;
   config.modules.gateway = true;
@@ -29,7 +29,7 @@ function anonymousMetrics() {
 }
 
 function auth() {
-  mingleService.auth.login('admin', 'admin', 'M LC').subscribe(() => {
+  mingleService.auth.login('login', 'password', 'ALIAS ').subscribe(() => {
     console.log('Logged in Mingle.');
     mingleService.registerMetric('LOGIN SUCCESS');
   },
